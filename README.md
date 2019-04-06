@@ -1,4 +1,4 @@
-[Travis Build Indicator to go here]
+[![Build Status](https://travis-ci.org/jhughes01/ansible-role-firewalld.svg?branch=master)](https://travis-ci.org/jhughes01/ansible-role-firewalld)
 
 Ansible role: Firewalld
 =========
