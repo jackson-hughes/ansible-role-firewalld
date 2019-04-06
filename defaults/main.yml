@@ -1,3 +1,5 @@
 ---
-firewalld_open_ports:
-  - "22/tcp"
+firewalld_open_ports: []
+
+firewalld_active_services:
+ - "ssh"

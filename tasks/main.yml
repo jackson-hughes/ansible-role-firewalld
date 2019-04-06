@@ -16,3 +16,11 @@
     state: enabled
     immediate: true
   loop: "{{ firewalld_open_ports }}"
+
+- name: Active firewall services
+  firewalld:
+    service: "{{ item }}"
+    permanent: true
+    state: enabled
+    immediate: true
+  loop: "{{ firewalld_active_services }}"
